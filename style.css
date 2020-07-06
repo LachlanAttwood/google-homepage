@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Top nav */
+#top_nav a{
+    padding: 5px;
+    color: #666666;
+    text-decoration: none;
+    display: inline-block;
+}
+#top_nav {
+    padding: 15px;
+    width: 100%;
+}
+.left {
+    position: relative;
+}
+.right {
+    float: right;
+    margin-right: 20px;
+}
+
+/* Search */
+#main_content {
+    text-align: center;
+    margin-top: 8%;
+}
+#main_content div{
+    margin-top: 10px;
+}
+.search_bar{
+    border: hidden;
+}
+#search_box {
+    width: 450px;
+    height: 35px;
+    border-radius: 120px;
+    border-width: 1px;
+    border-color: gray;
+    font-size: large;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+}
+.buttons {
+    height: 35px;
+    border-radius: 6px;
+    border: 0px;
+    color: gray;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+/* Footer */
+#footer a{
+    padding: 5px;
+    color: #666666;
+    text-decoration: none;
+    display: inline-block;
+}
+#footer {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    transform: translateY(-30px);
+}
